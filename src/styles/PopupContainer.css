@@ -1,0 +1,46 @@
+/* PopupContainer.css */
+
+.popup-container {
+    position: absolute;
+    width: 824px;
+    height: 687px;
+    top: 72px;
+    left: 230px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.popup-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.divider {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.radio-group div {
+    flex: 1;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}

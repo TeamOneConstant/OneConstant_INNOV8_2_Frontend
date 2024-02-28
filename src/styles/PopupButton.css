@@ -1,0 +1,91 @@
+/* {
+    background-color: #000000;
+} */
+
+.popup-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup-content {
+    display: block;
+    width: 100vh;
+    height: 80vh;
+    /* Set the width of the popup content */
+    padding: 20px;
+    background-color: #404040;
+    border: 1px solid #007DFC;
+    z-index: 1;
+    text-align: center;
+    /* Center align the text and form elements */
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 50% 50%;
+    cursor: pointer;
+}
+
+form {
+    margin-top: 20px;
+    /* Add space between the text and the form */
+}
+
+.lab2 {
+    position: relative;
+    left: -10px;
+    top: -10px;
+}
+
+label {
+    position: relative;
+    left: -10px;
+    display: block;
+    margin-bottom: 30px;
+    /* Add space between form elements */
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    background: #535353;
+}
+
+.textarea2 {
+    width: 286px;
+    height: 69px;
+    position: relative;
+    top: 17px;
+    left: -45px;
+    height: 69px;
+    padding: 5px;
+    margin-top: 5px;
+    background: #535353;
+}
+
+img {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: rgb(25, 24, 24);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
